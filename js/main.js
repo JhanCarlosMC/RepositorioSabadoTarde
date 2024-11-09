@@ -18,5 +18,5 @@ const cerrarLogin = document.getElementById("userName");
 cerrarLogin.addEventListener("click", function(e){
     localStorage.setItem("logged", JSON.stringify(false));
     
-    window.location.href = "/html/portafolio.html";
+    window.location.href = "/index.html";
 });

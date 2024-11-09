@@ -18,5 +18,5 @@ formRegistro.addEventListener("submit", function (e){
 
     localStorage.setItem("user", JSON.stringify(newUser));
 
-    window.location.href = "/html/login.html";
+    window.location.href = "/login.html";
 });

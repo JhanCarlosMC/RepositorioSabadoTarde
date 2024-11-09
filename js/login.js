@@ -10,7 +10,7 @@ formLogin.addEventListener('submit', function(e) {
 
     if(emailLogin == userStorage.correo && passwordLogin == userStorage.pass){
         localStorage.setItem("logged", JSON.stringify(true));
-        window.location.href = "/html/portafolio.html";
+        window.location.href = "/index.html";
 
     }else{
         alert("Usuario y contraseña INCORRECTOS");
