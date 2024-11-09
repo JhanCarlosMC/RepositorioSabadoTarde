@@ -1,0 +1,21 @@
+
+/* Selector de Tipo */
+h1{
+    margin: 10px;
+    font-size: 50px;
+}
+
+/* Selector de Clases */
+.sections_styles{
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+/* Selector de ID */
+#section_welcome{
+    background-color: rgb(230, 230, 230);
+    border-color: rgb(230, 230, 230);
+}
